@@ -5,7 +5,7 @@ O segundo [bora codar](https://boracodar.dev/#) é um card de Produto.
 
 ## O Projeto
 
-Um card de Produto com HTML e CSS.
+Um card de Produto com HTML e CSS e Javascript.
 
 [Layout no figma](https://www.figma.com/file/5EVESrC2dRewkW6kSHZrhb/%23boraCodar---Desafio-2-(Copy)?node-id=0%3A1&t=PAY5mkqdRRpyfVLP-0)
 

@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--pink: #d9cdf7;
+	--purple: #271a45;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Crimson Pro", serif;
+	background-color: var(--pink);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	display: flex;
+	gap: 1.2rem;
+}
+.sofaView,
+.sofaInfo {
+	flex: 1;
+	position: relative;
+}
+
+.sofaView #toggleSofaView {
+	width: 3rem;
+	height: 2rem;
+	position: absolute;
+	top: 2rem;
+	right: 5rem;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.sofaView #sofaView {
+	width: 100%;
+}
+
+.sofaInfo {
+	display: flex;
+	gap: 2rem;
+	flex-direction: column;
+	justify-content: center;
+	color: var(--purple);
+}
+
+.sofaInfo .info {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+p {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 3.2rem;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+button {
+	width: max-content;
+	font-size: 1.2rem;
+	font-weight: 400;
+	background: none;
+	padding: 0.8rem 1.6rem;
+	border-color: var(--purple);
+	border-radius: 999px;
+	cursor: pointer;
+}
